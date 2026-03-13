@@ -37,4 +37,8 @@ public class TaskService {
 
         return repo.save(existing);
     }
+
+    public List<Task> searchTasks(String title) {
+    return repo.findByTitleContainingIgnoreCase(title);
+}
 }

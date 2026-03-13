@@ -45,4 +45,9 @@ public class TaskController {
 
         return ResponseEntity.ok("Task updated!");
     }
+
+    @GetMapping("/search")
+    public List<Task> searchTasks(@RequestParam String title) {
+        return service.searchTasks(title);
+    }
 }

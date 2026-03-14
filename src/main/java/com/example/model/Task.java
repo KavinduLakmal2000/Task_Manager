@@ -1,6 +1,9 @@
 package com.example.model;
 
 import jakarta.persistence.*;
+import java.time.LocalDateTime;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
 public class Task {
@@ -12,20 +15,52 @@ public class Task {
     private String title;
     private String description;
     private String status;
+    
+    @CreationTimestamp
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdAt;
 
-    public Long getId() { return id; }
+    @UpdateTimestamp
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 
-    public void setId(Long id) { this.id = id; }
+    public Long getId() {
+        return id;
+    }
 
-    public String getTitle() { return title; }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-    public void setTitle(String title) { this.title = title; }
+    public String getTitle() {
+        return title;
+    }
 
-    public String getDescription() { return description; }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-    public void setDescription(String description) { this.description = description; }
+    public String getDescription() {
+        return description;
+    }
 
-    public String getStatus() { return status; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-    public void setStatus(String status) { this.status = status; }
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
+    }
 }

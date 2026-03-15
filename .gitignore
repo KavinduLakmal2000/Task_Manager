@@ -1,5 +1,11 @@
-target/
-node_modules/
+# Backend (Spring Boot)
+backend/target/
+
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Editor & OS
 .idea/
 *.log
-.env

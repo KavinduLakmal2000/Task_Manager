@@ -1,8 +1,0 @@
-POST http://localhost:8080/tasks
-Content-Type: application/json
-
-{
-  "title": "Learn Java",
-  "description": "Complete CRUD project",
-  "status": "pending"
-}

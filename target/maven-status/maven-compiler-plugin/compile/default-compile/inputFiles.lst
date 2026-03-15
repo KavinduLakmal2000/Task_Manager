@@ -1,8 +1,9 @@
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/exception/ErrorResponse.java
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/repository/TaskRepository.java
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/model/Task.java
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/exception/GlobalExceptionHandler.java
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/TaskmanagerApplication.java
-/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/controller/TaskController.java
 /home/lucky-linux/Documents/taskmanager/src/main/java/com/example/App.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/TaskmanagerApplication.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/config/WebConfig.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/controller/TaskController.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/exception/ErrorResponse.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/exception/GlobalExceptionHandler.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/model/Task.java
+/home/lucky-linux/Documents/taskmanager/src/main/java/com/example/repository/TaskRepository.java
 /home/lucky-linux/Documents/taskmanager/src/main/java/com/example/service/TaskService.java
